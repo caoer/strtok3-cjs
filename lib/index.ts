@@ -5,7 +5,7 @@ import * as core from './core.js';
 
 export { fromFile } from './FileTokenizer.js';
 export { ITokenizer, EndOfStreamError, fromBuffer, IFileInfo } from './core.js';
-export { IToken, IGetToken } from '@tokenizer/token';
+export { IToken, IGetToken } from '@caoer/token-types';
 
 /**
  * Construct ReadStreamTokenizer from given Stream.

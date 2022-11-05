@@ -2,9 +2,9 @@ import { ReadStreamTokenizer } from './ReadStreamTokenizer.js';
 import { Readable } from 'node:stream';
 import { BufferTokenizer } from './BufferTokenizer.js';
 import { IFileInfo } from './types.js';
-export { EndOfStreamError } from 'peek-readable';
+export { EndOfStreamError } from '@caoer/peek-readable';
 export { ITokenizer, IFileInfo } from './types.js';
-export { IToken, IGetToken } from '@tokenizer/token';
+export { IToken, IGetToken } from '@caoer/token-types';
 
 /**
  * Construct ReadStreamTokenizer from given Stream.

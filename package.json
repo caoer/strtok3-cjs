@@ -1,5 +1,5 @@
 {
-  "name": "strtok3",
+  "name": "@caoer/strtok3",
   "version": "7.0.0",
   "description": "A promise based streaming tokenizer",
   "author": {
@@ -33,7 +33,6 @@
     "url": "https://github.com/Borewit/strtok3.git"
   },
   "license": "MIT",
-  "type": "module",
   "exports": {
     ".": {
       "node": "./lib/index.js",
@@ -69,13 +68,12 @@
     "mocha": "^10.0.0",
     "remark-cli": "^11.0.0",
     "remark-preset-lint-recommended": "^6.1.2",
-    "token-types": "^5.0.0",
     "ts-node": "^10.9.1",
     "typescript": "^4.7.4"
   },
   "dependencies": {
-    "@tokenizer/token": "^0.3.0",
-    "peek-readable": "^5.0.0"
+    "@caoer/token-types": "5.0.2",
+    "@caoer/peek-readable": "5.0.0"
   },
   "keywords": [
     "tokenizer",

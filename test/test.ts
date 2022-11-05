@@ -1,13 +1,12 @@
-import * as Token from 'token-types';
+import * as Token from '@caoer/token-types';
 import { assert } from 'chai';
 import * as strtok3 from '../lib/index.js';
-import Path from 'node:path';
+import * as Path from 'path';
 import * as fs from '../lib/FsPromise.js';
 import { FileTokenizer } from '../lib/FileTokenizer.js';
-import { EndOfStreamError } from 'peek-readable';
+import { EndOfStreamError } from '@caoer/peek-readable';
 import { PassThrough } from 'node:stream';
-import mocha from 'mocha';
-import { Buffer } from 'node:buffer';
+import * as mocha from 'mocha';
 
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';

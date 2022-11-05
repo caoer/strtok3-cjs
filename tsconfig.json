@@ -1,11 +1,15 @@
 {
   "compilerOptions": {
-    "inlineSources": false,
-    "module": "node16",
-    "moduleResolution": "node16",
-    "target": "ES2019",
-    "esModuleInterop": true,
+    "sourceMap": true,
+    "declaration": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "ES2017",
+    "lib": [
+      "dom"
+    ],
     "strict": true
   }
 }
-
